@@ -5,17 +5,18 @@
 /// 
 
 void main(){
-    marksheet("Hitesh", 34);
-    marksheet("Huzaifa", 3);
-    marksheet("Kamlesh", 34);
-    marksheet("Ali Raza", 3);
-    marksheet("Doulat", 34);
+    marksheet("Hitesh", 3, "A");
+    marksheet("Huzaifa", 3, "A");
+    marksheet("Kamlesh", 3, "A");
+    marksheet("Ali Raza", 3, "A");
+    marksheet("Doulat", 3, "A");
     
 }
 
-marksheet(String name, num percentage){ //// carlly bracket ma  huamri body hoti hai  
+marksheet(String name, num percentage, String sec){ //// carlly bracket ma  huamri body hoti hai  
     // Students
     print(name);
+    print("Sec: $sec");
     
     if (percentage >= 50) {
       print("Pass");
