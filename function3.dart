@@ -1,5 +1,6 @@
 ///--- Functions in Dart ---////
 // Tou Optional parameter hum log iss condition ma use karte hain
+// abi iss function ma kuch bhe types  nh lagaya matlab yhai void and  return  dono print kar sakta hai
 void main(){
     marksheet(name : "Hitesh", percentage: 99);
     marksheet(name : "Doulat", percentage: 1);
