@@ -8,7 +8,7 @@ void main(){
     marksheet(name : "Mahesh", percentage: 77);
   }
 // section optional hai
-marksheet({required  name, required num percentage, String sec = "A"}){ //// carlly bracket ma  huamri body hoti hai  
+marksheet({required  name, required num percentage, sec = "A"}){  //// carlly bracket ma  huamri body hoti hai  
     // Students
     print(name);
     print("Sec: $sec");
